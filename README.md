@@ -1,27 +1,22 @@
-# projeto-vogiantzis
-Criar uma tabela de estoque de um restaurante que deverá ter uma lista de ingredientes e a quantidade deles e se necessário repor.
+## 🍽️ Controle de Estoque para Restaurante
 
-Linguagem:
-MySQL (MySQL)
-Java (NetBeans)
+Sistema simples para controle de estoque de ingredientes em um restaurante.
 
-Requisitos:
-Git
-Github
-Conceitos Básicos
-Classe
-Objeto
-Herança
-Encapsulamento
+### 🧰 Tecnologias
+- MySQL  
+- Java (NetBeans)
 
-Tabelas:
+### ✅ Requisitos
+- Git / GitHub  
+- POO (Classe, Objeto, Herança, Encapsulamento)
 
-1ª Tabela
-Ingredientes (Varchar): uma lista de ingredientes que se encontram no restaurante, caso não tenha, não aparece;
-Quantidades (BigInt): uma quantidade disponível de cada ingrediente;
-Necessário Repor (Boolean): a partir de uma quantidade, diz se será necessário repor o ingrediente;
+### 📊 Tabelas
 
+**1ª Tabela – Estoque**  
+- `ingredientes` (VARCHAR): Lista de ingredientes do restaurante  
+- `quantidade` (BIGINT): Quantidade disponível  
+- `necessarioRepor` (BOOLEAN): Indica se é necessário repor  
 
-2ª Tabela
-Ingredientes necessários (quais ingredientes serão usados na receita);
-A quantidade necessária (quanto se deve usar de cada ingrediente).
+**2ª Tabela – Receita**  
+- `ingredientesUsados`: Ingredientes da receita  
+- `quantidadeNecessaria`: Quanto usar de cada ingrediente  
