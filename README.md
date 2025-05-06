@@ -15,10 +15,12 @@ Herança
 Encapsulamento
 
 Tabelas:
+
 1ª Tabela
 Ingredientes (Varchar): uma lista de ingredientes que se encontram no restaurante, caso não tenha, não aparece;
 Quantidades (BigInt): uma quantidade disponível de cada ingrediente;
 Necessário Repor (Boolean): a partir de uma quantidade, diz se será necessário repor o ingrediente;
+
 
 2ª Tabela
 Ingredientes necessários (quais ingredientes serão usados na receita);
